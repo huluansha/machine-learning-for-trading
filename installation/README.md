@@ -70,7 +70,7 @@ conda install -n base -c conda-forge mamba
 To create a [virtual environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) with the latest versions of the libraries used in the notebooks (as of April 2021), you just need to run one of the following options (depending on your operating system) from the command line in the root directory of the cloned repo:
 
 ```bash
-conda env create -n ml4t python=3.8
+conda create -n ml4t python=3.8
 mamba env update -n ml4t -f installation/windows/ml4t.yml 
 mamba env update -n ml4t -f installation/macosx/ml4t.yml # deprecated; use ml4t-base.yml
 mamba env update -n ml4t -f installation/linux/ml4t.yml 
